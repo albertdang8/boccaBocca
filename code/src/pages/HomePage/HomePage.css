@@ -1,0 +1,22 @@
+.one {
+    background: url('../../assets/unsplash/artur-rutkowski-4yzEtTQLdL4-unsplash.jpg');
+    background-position: 50% 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    font-size: var(--fs-700);
+    color: aliceblue;
+}
+
+.two {
+    background: url(../../assets/unsplash/sahand-hoseini-aqrDQEhxAos-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
