@@ -1,22 +1,37 @@
 .one {
-    background: url('../../assets/unsplash/artur-rutkowski-4yzEtTQLdL4-unsplash.jpg');
-    background-position: 50% 65%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-}
-
-.title {
-    font-size: var(--fs-700);
-    color: rgb(82, 82, 148);
+    background: url('../../assets/Photos-001/DSC05777.jpg');
+    background-position: 50% 75%;
 }
 
 .two {
-    background: url(../../assets/unsplash/sahand-hoseini-aqrDQEhxAos-unsplash.jpg);
+    background: url(../../assets/Photos-001/DSC05910.jpg);
     background-position: center;
+}
+
+.three {
+    background: url(../../assets/Photos-001/DSC05823.jpg);
+    background-position: center;
+}
+
+.break {
+    display: flex;
+}
+
+.img1{
+    background: url(../../assets/Photos-001/DSC05787.jpg);
+    background-position: 50% 75%;
+    width: 50%;
+}
+
+.img2{
+    background: url(../../assets/Photos-001/DSC05788.jpg);
+    background-position: 50% 75%;
+    width: 50%;
+}
+
+.section {
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
 }

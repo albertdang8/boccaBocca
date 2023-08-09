@@ -1,10 +1,14 @@
 @import url('https://api.fonts.coollabs.io/css2?family=Kanit:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap');
+@import url('https://api.fonts.coollabs.io/css2?family=Rubik+Wet+Paint&display=swap');
 
 :root {
     --clr-primary-200: #777777;
+    --clr-secondary: #E49F1B;
+    --clr-base-site: #026633;
 
     --ff-para: 'Rubik', sans-serif;
     --ff-base: 'Kanit', sans-serif;
+    --ff-header: 'Rubik Wet Paint', cursive;
 
     --fw-regular: 300;
     --fw-semi-bold: 400;
@@ -41,7 +45,7 @@ video {
 
 body {
     color: var(--clr-primary-200);
-    font-family: var(--ff-base);
+    font-family: var(--ff-para);
     font-size: var(--fs-400);
     font-weight: var(--fw-regular);
     line-height: 1.5;
