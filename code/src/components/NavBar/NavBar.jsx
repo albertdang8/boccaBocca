@@ -10,9 +10,9 @@ const NavBar = () => {
           <FaPizzaSlice />
         </a>
         <div className="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <a href="#">About Bocca</a>
+          <a href="#">Contact</a>
+          <a href="#">Pizzas</a>
         </div>
       </li>
     </ul>
