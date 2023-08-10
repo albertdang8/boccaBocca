@@ -1,0 +1,12 @@
+.staff-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-title {
+    font-family: var(--ff-para);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-700);
+}

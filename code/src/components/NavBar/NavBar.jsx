@@ -8,13 +8,14 @@ const NavBar = () => {
     <div className="nav-container">
       <ul>
         <li class="dropdown">
-          <a href="" className="dropbtn">
+          <a href="#" className="dropbtn">
             <FaPizzaSlice />
           </a>
           <div className="dropdown-content">
-            <Link to="#">Contact</Link>
             <Link to="/about">About Bocca</Link>
-            <Link to="#">Pizzas</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/pizzas">Pizzas</Link>
+            <Link to="/">Home</Link>
           </div>
         </li>
       </ul>
