@@ -1,4 +1,5 @@
 import React from "react";
+import "./StaffCard.css";
 
 const StaffCard = () => {
   const notApiJSON = [
@@ -57,7 +58,7 @@ const StaffCard = () => {
       {notApiJSON.map((item, index) => (
         <div key={index} className="staff-card">
           <h2>{item.name}</h2>
-          <img src={item.img} alt={item.name} className="staff-image" />
+          <div className="img"/>
           <div className="staff-details">
             <p>
               <strong>Favorite Movie:</strong> {item.favMovie}

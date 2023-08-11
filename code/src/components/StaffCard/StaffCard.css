@@ -1,0 +1,7 @@
+.img {
+    background: url(../../assets/staff/Tommy.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 16rem;
+    height: 16rem;
+}
