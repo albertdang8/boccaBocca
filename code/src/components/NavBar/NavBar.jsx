@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div className="nav-container">
       <ul>
-        <li class="dropdown">
+        <li className="dropdown">
           <a href="#" className="dropbtn">
             <FaPizzaSlice />
           </a>
