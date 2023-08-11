@@ -2,80 +2,65 @@ import React from "react";
 import "./StaffCard.css";
 
 const StaffCard = () => {
-  const notApiJSON = [
-    {
-      name: "Tommy Beckelheimer",
-      img: "../../assets/staff/Tommy.jpg",
-      favMovie: "That Thing You Do",
-      favMusic: ["Oso Oso", "Dua Lipa", "Spoon"],
-      topFoods: ["Oysters", "Anything Italian/Mediterranean"],
-      quirk: "Every dog reminds me of mine",
-    },
-    // {
-    //   name: "Ravioli",
-    //   img: "../../assets/staff/DCS05819.jpg",
-    //   favMovie: "That Thing You Do",
-    //   favMusic: ["Oso Oso", "Dua Lipa", "Spoon"],
-    //   topFoods: ["Oysters", "Anything Italian/Mediterranean"],
-    //   quirk: "Every dog reminds me of mine",
-    // },
-    // {
-    //   name: "Evan",
-    //   img: "../../assets/staff/DCS05819.jpg",
-    //   favMovie: "That Thing You Do",
-    //   favMusic: ["Oso Oso", "Dua Lipa", "Spoon"],
-    //   topFoods: ["Oysters", "Anything Italian/Mediterranean"],
-    //   quirk: "Every dog reminds me of mine",
-    // },
-    // {
-    //   name: "Jacob",
-    //   img: "../../assets/staff/DCS05819.jpg",
-    //   favMovie: "That Thing You Do",
-    //   favMusic: ["Oso Oso", "Dua Lipa", "Spoon"],
-    //   topFoods: ["Oysters", "Anything Italian/Mediterranean"],
-    //   quirk: "Every dog reminds me of mine",
-    // },
-    // {
-    //   name: "Bobby",
-    //   img: "../../assets/staff/DCS05819.jpg",
-    //   favMovie: "That Thing You Do",
-    //   favMusic: ["Oso Oso", "Dua Lipa", "Spoon"],
-    //   topFoods: ["Oysters", "Anything Italian/Mediterranean"],
-    //   quirk: "Every dog reminds me of mine",
-    // },
-    // {
-    //   name: "Albert",
-    //   img: "../../assets/staff/DCS05819.jpg",
-    //   favMovie: "That Thing You Do",
-    //   favMusic: ["Oso Oso", "Dua Lipa", "Spoon"],
-    //   topFoods: ["Oysters", "Anything Italian/Mediterranean"],
-    //   quirk: "Every dog reminds me of mine",
-    // },
-  ];
 
   return (
-    <div>
-      {notApiJSON.map((item, index) => (
-        <div key={index} className="staff-card">
-          <h2>{item.name}</h2>
-          <div className="img"/>
-          <div className="staff-details">
-            <p>
-              <strong>Favorite Movie:</strong> {item.favMovie}
-            </p>
-            <p>
-              <strong>Favorite Music:</strong> {item.favMusic.join(", ")}
-            </p>
-            <p>
-              <strong>Top Foods:</strong> {item.topFoods.join(", ")}
-            </p>
-            <p>
-              <strong>Quirk:</strong> {item.quirk}
-            </p>
-          </div>
+    <div className="staff-container">
+      <div className="staff-card">
+        <div className="img" />
+        <div className="staff-details">
+          <h2 className="staff-name">Tommy Beckelheimer</h2>
+          <p>
+            <strong>Favorite Movie:</strong> That Thing You Do
+          </p>
+          <p>
+            <strong>Favorite Music:</strong> Oso Oso, Dua Lipa, Spoon
+          </p>
+          <p>
+            <strong>Top Foods:</strong> Oysters, Anything Italian/Mediterranean
+          </p>
+          <p>
+            <strong>Quirk:</strong> Every dog reminds me of mine
+          </p>
         </div>
-      ))}
+      </div>
+      <div className="staff-card">
+        <div className="img-dog" />
+        <div className="staff-details">
+          <h2 className="staff-name">Ravioli</h2>
+          <p>
+            <strong>Favorite Movie:</strong> Airbud
+          </p>
+          <p>
+            <strong>Favorite Music:</strong> Botch, Cake, Dua Lipa, Feist
+          </p>
+          <p>
+            <strong>Top Foods:</strong> Mine own asshole
+          </p>
+          <p>
+            <strong>Quirk:</strong> I poopie on floor lol
+          </p>
+        </div>
+      </div>
+      <div className="staff-card">
+        <div className="img-bert" />
+        <div className="staff-details">
+          <h2 className="staff-name">Albert</h2>
+          <p>
+            <strong>Favorite Movie:</strong> Casablanca
+          </p>
+          <p>
+            <strong>Favorite Music:</strong> Botch, Cake, Dua Lipa, Feist
+          </p>
+          <p>
+            <strong>Top Foods:</strong> Hotdogs, Foie gras, Chinese, Chicken McNuggets, Chalupa
+          </p>
+          <p>
+            <strong>Quirk:</strong> I'm the piece of shit that made this website.
+          </p>
+        </div>
+      </div>
     </div>
+    
   );
 };
 

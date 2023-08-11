@@ -1,7 +1,65 @@
+.staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}
+
 .img {
     background: url(../../assets/staff/Tommy.jpg);
-    background-size: cover;
+    background-position: 50% 25%;
+}
+
+.img-dog {
+    background: url(../../assets/staff/doggoRavioli.jpg);
     background-position: center;
-    width: 16rem;
+}
+
+.img-bert {
+    background: url(../../assets/staff/Albert.jpg);
+    background-position: center;
+}
+
+.img,
+.img-dog,
+.img-bert {
+    background-size: cover;
+    min-width: 16rem;
     height: 16rem;
+    margin: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.staff-card {
+    display: flex;
+    width: calc(45% - 10px);
+    margin-bottom: 20px;
+}
+
+.staff-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.staff-name {
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
+}
+
+strong {
+    font-weight: var(--fw-semi-bold);
+}
+
+@media (max-width: 768px) {
+  .staff-card {
+    width: 100%;
+  }
+
+  .staff-card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 }
