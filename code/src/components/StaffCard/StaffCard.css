@@ -55,6 +55,10 @@
     color: #4e4e4e;
 }
 
+strong {
+    font-weight: var(--fw-semi-bold);
+}
+
 .tommy {
     background-image: url(../../assets/staff/Tommy.jpg);
     background-position: 50% top;

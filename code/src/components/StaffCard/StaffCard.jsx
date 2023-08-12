@@ -69,7 +69,7 @@ const StaffCard = () => {
           </div>
         </div>
 
-        {/* <div className="teams">
+        <div className="teams">
           <div className="tommy" />
           <div className="name">Tommy Beckelheimer</div>
           <div className="desig">Top Cook Man</div>
@@ -88,7 +88,27 @@ const StaffCard = () => {
               <strong>Quirk:</strong> <br /> Every dog reminds me of mine
             </p>
           </div>
-        </div> */}
+        </div>
+        <div className="teams">
+          <div className="tommy" />
+          <div className="name">Tommy Beckelheimer</div>
+          <div className="desig">Top Cook Man</div>
+          <div className="about">
+            <p>
+              <strong>Favorite Movie:</strong> <br /> That Thing You Do
+            </p>
+            <p>
+              <strong>Favorite Music:</strong> <br /> Oso Oso, Dua Lipa, Spoon
+            </p>
+            <p>
+              <strong>Top Foods:</strong> <br /> Oysters, Anything
+              Italian/Mediterranean
+            </p>
+            <p>
+              <strong>Quirk:</strong> <br /> Every dog reminds me of mine
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
