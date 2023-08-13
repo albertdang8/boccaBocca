@@ -1,37 +1,17 @@
-.one {
-    background: url('../../assets/Photos-001/DSC05777.jpg');
-    background-position: 50% 75%;
-}
-
-.two {
-    background: url(../../assets/Photos-001/DSC05910.jpg);
-    background-position: center;
-}
-
-.three {
-    background: url(../../assets/Photos-001/DSC05823.jpg);
-    background-position: center;
-}
-
-.break {
+.banner-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 540px;
 }
 
-.img1{
-    background: url(../../assets/Photos-001/DSC05787.jpg);
-    background-position: 50% 75%;
-    width: 50%;
-}
-
-.img2{
-    background: url(../../assets/Photos-001/DSC05788.jpg);
-    background-position: 50% 75%;
-    width: 50%;
-}
-
-.section {
+.banner-left {
+    background-image: url(../../assets/Photos-001/DSC05910.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* width: 100vw; */
-    height: 100vh;
+    background-position: center;
+    height: 100%;
+    width: 100%;
 }
+

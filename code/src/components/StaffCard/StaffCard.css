@@ -9,6 +9,16 @@
     font-size: 20px;
     margin: auto;
     line-height: 50px;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+.summary {
+    max-width: 80ch;
+    text-align: center;
+    margin: auto;
+    padding: 12px;
 }
 
 .sub-container {
@@ -87,6 +97,21 @@ strong {
     border-radius: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.preemo {
+    background-image: url(../../assets/staff/preemo.JPG);
+    background-position: 50% 30%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.site-link {
+    text-decoration: none;
+    color: black;
 }
 
 
