@@ -8,10 +8,7 @@
     color: #444;
     font-size: 20px;
     margin: auto;
-    line-height: 50px;
-    /* display: flex; */
-    /* flex-direction: column;
-    align-items: center; */
+
 }
 
 .summary {
@@ -69,44 +66,48 @@ strong {
     font-weight: var(--fw-semi-bold);
 }
 
-.tommy {
-    background-image: url(../../assets/staff/Tommy.jpg);
+.team-image {
     background-position: 50% top;
     height: 200px;
     width: 200px;
     border-radius: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.tommy {
+    background-image: url(../../assets/staff/Tommy.jpg);
 }
 
 .ravioli {
     background-image: url(../../assets/staff/doggoRavioli.jpg);
-    background-position: 50% top;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .bert {
     background-image: url(../../assets/staff/Albert.jpg);
-    background-position: center;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.bobby {
+    background-image: url(../../assets/logo.JPG);
+}
+
+.evan {
+ background-image: url(../../assets/logo.JPG);
+}
+
+.placeholder {
+    background-image: url(../../assets/logo.JPG);
 }
 
 .preemo {
     background-image: url(../../assets/staff/preemo.JPG);
     background-position: 50% 30%;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-size: 120%;
-    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.a-frame {
+    background-image: url(../../assets/Photos-001/DSC05777.jpg);
+    background-position: 55%;
 }
 
 .site-link {
