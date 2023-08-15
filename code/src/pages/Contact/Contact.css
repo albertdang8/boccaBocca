@@ -1,0 +1,9 @@
+.contact-banner {
+    /* background-image: url(../../assets/Photos-001/DSC05860.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    width: 1000px;
+    color: black;
+    
+}

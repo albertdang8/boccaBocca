@@ -5,7 +5,6 @@ const StaffCard = () => {
   return (
     <div className="container">
       <div className="header">
-        <h1>Our Staff</h1>
         <p className="summary">
           We believe in giving credit where credit is due. That is to say,
           you'll see us proudly displaying the faces of the very human friends
@@ -15,6 +14,7 @@ const StaffCard = () => {
           cheerful disposition, family and loved ones who have given us endless
           support.
         </p>
+        <h1>Our Staff</h1>
       </div>
       <div className="sub-container">
         <div className="teams">
@@ -30,7 +30,7 @@ const StaffCard = () => {
             </p>
             <p>
               <strong>Top Foods:</strong> <br /> Oysters, Anything
-              Italian/Mediterranean
+              Italian/Mediterranean, Pizza
             </p>
             <p>
               <strong>Quirk:</strong> <br /> Every dog reminds me of mine
@@ -69,7 +69,7 @@ const StaffCard = () => {
               The Story of Fire Saga
             </p>
             <p>
-              <strong>Favorite Music:</strong> <br /> Botch, Dua Lipa, Feist
+              <strong>Favorite Music:</strong> <br />ABBA, Botch, Dua Lipa, Feist, Pedro the Lion
             </p>
             <p>
               <strong>Top Foods:</strong> <br /> Hotdogs, Foie Gras, Chicken
@@ -85,33 +85,36 @@ const StaffCard = () => {
         <div className="teams">
           <div className="team-image bobby" />
           <div className="name">Bobby</div>
-          <div className="desig">4</div>
+          <div className="desig">Cook</div>
           <div className="about">
             <p>
-              <strong>Favorite Movie:</strong> <br /> Anything by FakeTaxi
+              <strong>Favorite Movie:</strong> <br />The Place Beyond the Pines
             </p>
             <p>
               <strong>Favorite Music:</strong> <br /> The Beatles, Jimmy
-              Hendrix, Bill Evans
+              Hendrix, Thelonious Monk, John Coltrane
             </p>
             <p>
-              <strong>Top Foods:</strong> <br /> Gatorade
+              <strong>Top Foods:</strong> <br /> Energy Drinks, Sushi, Under-cooked Pasta
             </p>
             <p>
-              <strong>Quirk:</strong> <br /> I like jazz... like a lot.
+              The Real Book, To Kill a Mockingbird
+            </p>
+            <p>
+              <strong>Quirk:</strong> <br /> Skiddly-boop-bap .*~jazz~*.
             </p>
           </div>
         </div>
         <div className="teams">
           <div className="team-image evan" />
           <div className="name">Evan</div>
-          <div className="desig">5</div>
+          <div className="desig">Cook</div>
           <div className="about">
             <p>
-              <strong>Favorite Movie:</strong> <br /> Test
+              <strong>Favorite Movie:</strong> <br /> Speed, Shrek, Shrek 2, Lord of the Rings
             </p>
             <p>
-              <strong>Favorite Music:</strong> <br /> Test
+              <strong>Favorite Music:</strong> <br /> Taylor Swift, My Chemical Romance, All-American Rejects
             </p>
             <p>
               <strong>Top Foods:</strong> <br /> Test
@@ -123,15 +126,15 @@ const StaffCard = () => {
         </div>
 
         <div className="teams">
-          <div className="team-image evan" />
+          <div className="team-image placeholder" />
           <div className="name">Jacob</div>
-          <div className="desig">5</div>
+          <div className="desig">Cook</div>
           <div className="about">
             <p>
-              <strong>Favorite Movie:</strong> <br /> Test
+              <strong>Favorite Movie:</strong> <br /> Ms. Congeniality, Speed 2, Hurrican Heist
             </p>
             <p>
-              <strong>Favorite Music:</strong> <br /> Test
+              <strong>Favorite Music:</strong> <br /> Blake Mills, Andy Schauf, Tune Yards, Vampire Weekend
             </p>
             <p>
               <strong>Top Foods:</strong> <br /> Test
@@ -149,7 +152,7 @@ const StaffCard = () => {
           These talented artists have played a pivotal role in shaping our
           company's distinct image and function. Their creative contributions
           have pushed our brand to have a unique and captivating visual
-          identity, setting us apart in a competitive landscape.
+          identity, setting us apart in a competitive landscape. If you want artists to help you with your business or project, we encourage you to reach out to these talented individuals!
         </p>
       </div>
       <div className="sub-container">
@@ -162,11 +165,11 @@ const StaffCard = () => {
               <strong>About:</strong> <br /> Priscilla is the designer of our
               logo. Her work has been featured all over the Orange County/Los
               Angeles area and continues to spread life and wonderment wherever
-              she may be.
+              her art reaches.
             </p>
             <p>
-              <strong>Site:</strong> <br />{" "}
-              <a className="site-link" href="https://www.priscillamoreno.com/">
+              <strong>Site:</strong> <br />
+              <a className="site-link" href="https://www.priscillamoreno.com/" target="_blank">
                 https://www.priscillamoreno.com/
               </a>
             </p>
@@ -187,7 +190,7 @@ const StaffCard = () => {
               our tables.
             </p>
             <p>
-              <strong>Site:</strong> <br />{" "}
+              <strong>Site:</strong> <br />
               <a className="site-link" href="#">
                 https://www.placeHolder.com/
               </a>
@@ -199,18 +202,18 @@ const StaffCard = () => {
         </div>
         <div className="teams">
           <div className="team-image placeholder" />
-          <div className="name">Photographer.placeHolder</div>
+          <div className="name">María Gonzalez</div>
           <div className="desig">Photographer</div>
           <div className="about">
             <p>
               <strong>About:</strong> <br /> Tommy is absolutely terrible at
               capturing the nuance of our work, so we're eternally grateful for
-              the blessing/contributions of user.placeHolder and their talents.
+              the blessing/contributions of María and her talents.
               An essential part of our aesthetic relies upon the contributions
               of our selfless photographers.
             </p>
             <p>
-              <strong>Site:</strong> <br />{" "}
+              <strong>Site:</strong> <br />
               <a className="site-link" href="#">
                 https://www.placeHolder.com/
               </a>
