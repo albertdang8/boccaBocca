@@ -2,9 +2,13 @@
 @import url('https://api.fonts.coollabs.io/css2?family=Rubik+Wet+Paint&display=swap');
 
 :root {
-    --clr-primary-200: #777777;
+    --clr-primary-200: #1C1C1C;
     --clr-secondary: #E49F1B;
-    --clr-base-site: #026633;
+    --clr-base-site: #145842;
+
+    --clr-secondary2: #777777;
+    --clr-secondary3: #E49F1B;
+    --clr-secondary4: #026633;
 
     --ff-para: 'Rubik', sans-serif;
     --ff-base: 'Kanit', sans-serif;
@@ -57,4 +61,12 @@ textarea,
 button,
 select {
     font: inherit;
+}
+
+h1 {
+    font-family: var(--ff-base);
+    font-size: var(--fs-700);
+    font-weight: var(--fw-bold);
+    color: #E49F1B;
+    line-height: 1;
 }

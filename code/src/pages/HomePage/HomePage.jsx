@@ -1,19 +1,15 @@
 import React from "react";
 
-import bannerImage from "../../assets/Photos-001/DSC05910.jpg"
+import '../../components/HeadBanner/HeadBanner'
 import "./HomePage.css";
+import HeadBanner from "../../components/HeadBanner/HeadBanner";
 
 const HomePage = () => {
   return (
     <div>
       <div className="banner-container">
-          <div className="banner">
-            <img src={bannerImage} alt="Banner" />
-          </div>
-        <div className="overlay">
-        </div>
+        <HeadBanner/>
       </div>
-
     </div>
   );
 };
