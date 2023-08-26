@@ -36,3 +36,18 @@
     width: 45%;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 500px) {
+    .banner-container {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    .banner-left {
+        width: auto;
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+}

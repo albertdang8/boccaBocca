@@ -162,9 +162,9 @@ const StaffCard = () => {
           <div className="desig">Logo Artist</div>
           <div className="about">
             <p>
-              <strong>About:</strong> <br /> Priscilla is the designer of our
+              <strong>About:</strong> <br /> Priscilla is the designer of our wonderful
               logo. Her work has been featured all over the Orange County/Los
-              Angeles area and continues to spread life and wonderment wherever
+              Angeles area and continues to spread life and positivity wherever
               her art reaches.
             </p>
             <p>
