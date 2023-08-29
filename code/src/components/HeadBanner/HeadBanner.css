@@ -1,5 +1,5 @@
 .banner-container {
-    height: 700px;
+    
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,7 @@
 }
 
 .banner-left {
-    width: 50%;
+    width: 38.2%;
     padding: 3rem;
 }
 
@@ -27,7 +27,7 @@
 .banner-right{
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 61.8%;
 }
 
 .logo {
