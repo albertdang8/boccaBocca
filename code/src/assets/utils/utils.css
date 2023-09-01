@@ -54,18 +54,10 @@
     .container {
         max-width: 1280px;
     }
-
-    .section {
-        margin-top: 10rem;
-    }
 }
 
 @media (min-width: 1536px) {
     .container {
         max-width: 1536px;
-    }
-
-    .section {
-        margin-top: 10rem;
     }
 }
