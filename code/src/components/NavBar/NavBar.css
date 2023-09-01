@@ -8,13 +8,21 @@
   z-index: 9999;
 }
 
-
 .header__menu {
   display: none;
 }
 
+.header__sun {
+  color: var(--clr-accent-dk);
+  background-color: transparent;
+  width: var(--size-2xl);
+  height: var(--size-2xl);
+  display: block;
+}
+
 .header__bars {
-  color: black;
+  color: var(--clr-background);
+  background-color: transparent;
   width: var(--size-2xl);
   height: var(--size-2xl);
   display: block;

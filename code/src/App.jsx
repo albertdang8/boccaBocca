@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
+import "./assets/utils/utils.css"
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/HomePage/HomePage";
 import About from "./pages/About/About";
-import "./App.css";
 import Pizzas from "./pages/Pizzas/Pizzas";
 import Contact from "./pages/Contact/Contact";
 

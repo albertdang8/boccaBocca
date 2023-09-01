@@ -7,12 +7,14 @@
     --clr-secondary: #e9e8fa;
     --clr-accent: #145742;
     --clr-text: #0E101A;
+    --clr-chez: #E49F1B;
 
     --clr-background-dk: #0E101A;
     --clr-primary-dk: #0D8065;
     --clr-secondary-dk:#100d3d;
-    --clr-accent-dk: #1cf5c2;
+    --clr-accent-dk: rgb(28, 245, 194);
     --clr-text-dk: #ffffff;
+
 
 
     --ff-para: 'Rubik', sans-serif;
@@ -58,6 +60,8 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--clr-background-dk);
+    color: var(--clr-secondary);
 }
 
 img,
@@ -69,10 +73,8 @@ video {
 }
 
 body {
-    color: var(--clr-primary-200);
+    color: var(--clr-text-dk);
     font-family: var(--ff-para);
-    font-size: var(--fs-400);
-    font-weight: var(--fw-regular);
     line-height: 1.5;
     min-height: 100vh;
 }
@@ -90,12 +92,4 @@ button {
     border: none;
     cursor: pointer;
     color: inherit;
-}
-
-h1 {
-    font-family: var(--ff-base);
-    font-size: var(--fs-700);
-    font-weight: var(--fw-bold);
-    color: #E49F1B;
-    line-height: 1;
 }
