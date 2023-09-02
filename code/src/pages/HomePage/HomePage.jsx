@@ -3,6 +3,7 @@ import React from "react";
 import "../../components/HeadBanner/HeadBanner";
 import "./HomePage.css";
 import HeadBanner from "../../components/HeadBanner/HeadBanner";
+import HeaderImg from "../../assets/Photos-001/DSC05825.jpg";
 
 const HomePage = () => {
   return (
@@ -26,7 +27,7 @@ const HomePage = () => {
           <p className="about__description">
             Tommy has worked in the service industry for a long time. He's been
             a barista at specialty coffee shops and not-so-specialty coffee
-            shops. From there he went on to manage the tasting room at Chapman
+            shops. Then he went on to manage the tasting room at Chapman
             Crafted Brewery. From there he's met and befriended many foodtruck
             cooks, farmers, and bakers.
           </p>
@@ -51,9 +52,12 @@ const HomePage = () => {
                 Options for vegans and vegetarians
               </li>
               <li className="about__list">Fresh and made to order</li>
-              <li className="about__list">We have a great following</li>
+              <li className="about__list">Killer smiles</li>
             </ul>
           </div>
+        </div>
+        <div className="about__img-wrapper">
+          <img src={HeaderImg} alt="" className="about__img" />
         </div>
       </section>
     </>
