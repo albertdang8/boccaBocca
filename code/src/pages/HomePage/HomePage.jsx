@@ -4,6 +4,7 @@ import "../../components/HeadBanner/HeadBanner";
 import "./HomePage.css";
 import HeadBanner from "../../components/HeadBanner/HeadBanner";
 import HeaderImg from "../../assets/Photos-001/DSC05825.jpg";
+import Feature from "../../components/Feature/Feature";
 
 const HomePage = () => {
   return (
@@ -60,6 +61,7 @@ const HomePage = () => {
           <img src={HeaderImg} alt="" className="about__img" />
         </div>
       </section>
+      <Feature />
     </>
   );
 };
