@@ -5,6 +5,7 @@ import "./HomePage.css";
 import HeadBanner from "../../components/HeadBanner/HeadBanner";
 import HeaderImg from "../../assets/Photos-001/DSC05825.jpg";
 import Feature from "../../components/Feature/Feature";
+import Gallery from "../../components/Gallery/Gallery";
 
 const HomePage = () => {
   return (
@@ -62,6 +63,7 @@ const HomePage = () => {
         </div>
       </section>
       <Feature />
+      <Gallery />
     </>
   );
 };
