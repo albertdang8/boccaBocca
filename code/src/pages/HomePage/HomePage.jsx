@@ -3,6 +3,7 @@ import React from "react";
 import "../../components/HeadBanner/HeadBanner";
 import "./HomePage.css";
 import HeadBanner from "../../components/HeadBanner/HeadBanner";
+import Work from "../../components/Work/Work";
 import HeaderImg from "../../assets/Photos-001/DSC05825.jpg";
 import Feature from "../../components/Feature/Feature";
 
@@ -62,6 +63,7 @@ const HomePage = () => {
         </div>
       </section>
       <Feature />
+      <Work />
     </>
   );
 };
