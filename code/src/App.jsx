@@ -8,13 +8,11 @@ import HomePage from "./pages/HomePage/HomePage";
 import About from "./pages/About/About";
 import Pizzas from "./pages/Pizzas/Pizzas";
 import Contact from "./pages/Contact/Contact";
-import MobileNav from "./components/MobileNav/MobileNav";
 
 function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <MobileNav />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
