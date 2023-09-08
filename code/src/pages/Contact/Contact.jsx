@@ -1,20 +1,22 @@
 import React from "react";
 
 import { FaInstagram } from "react-icons/fa";
-import { BiLogoGmail } from "react-icons/bi"
+import { BiLogoGmail } from "react-icons/bi";
 import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="center">
-      <div className="overlay"></div>
-      <div className="contact-banner center">
-        Looking to book an event or location with us? Have questions about pricing or availability? Feel free to contact us at:
-        BoccaBoccaPizza@gmail.com. 
-        <BiLogoGmail size={36} />
-        <FaInstagram  size={30} /> 
-      </div>
-    </div>
+    <section className="contact container">
+      <h2 className="contact__title">Get In Contact</h2>
+      <p className="contact__description">
+        Whether you are new to us, have event inquiries or just want to say hi,
+        our inbox is always open, so feel free to reach out and we will get back
+        to you as soon as possible.
+      </p>
+      <a href="mailto:BoccaBoccaPizza@gmail.com" className="contact__btn btn" target="_blank">
+        Reach Out
+      </a>
+    </section>
   );
 };
 
