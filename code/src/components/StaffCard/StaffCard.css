@@ -1,18 +1,12 @@
-.container {
-    /* text-align: center; */
-    /* background: #f5f5f5; */
-    /* fix this later its a duplicate from the utils.css */
+.staff__about-container {
+    text-align: center;
 }
 
-.header {
+.staff__header {
     padding-top: 30px;
-    color: #444;
+    color: var(--clr-text-dk);
     font-size: 20px;
     margin: auto;
-
-}
-
-.summary {
     max-width: 80ch;
     text-align: center;
     margin: auto;
@@ -35,13 +29,14 @@
     margin: 10px;
     padding: 22px;
     max-width: 30%;
+    min-width: 350px;
     cursor: pointer;
-    transition: 0.4s;
     box-sizing: border-box;
+    transition: 0.4s;
 }
 
 .teams:hover {
-    background: #ddd;
+    background: rgba(221, 221, 221, .25);
     border-radius: 12px;
 }
 
@@ -50,6 +45,7 @@
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
+    color: var(--clr-text-dk);
 }
 
 .desig {
@@ -57,13 +53,17 @@
     color: #888;
 }
 
-.about {
-    /* margin: 20px 0; */
-    /* font-weight: lighter; */
+.staff__about {
+    margin: 20px 0;
+    font-weight: lighter;
 }
 
 strong {
     font-weight: var(--fw-semi-bold);
+}
+
+.staff__email {
+    color: var(--clr-accent-dk);
 }
 
 .team-image {
@@ -93,7 +93,7 @@ strong {
 }
 
 .evan {
- background-image: url(../../assets/staff/logo.jpeg);
+    background-image: url(../../assets/staff/logo.jpeg);
 }
 
 .placeholder {
@@ -117,8 +117,14 @@ strong {
 }
 
 
-@media screen and (max-width: 600px) {
-    .teams {
-        max-width: 100%;
-    }
-}
+/* @media (min-width: 475px) {} */
+
+/* @media (min-width: 640px) {} */
+
+/* @media (min-width: 768px) {} */
+
+/* @media (min-width: 1024px) {} */
+
+/* @media (min-width: 1280px) {} */
+
+/* @media (min-width: 1536px) {} */

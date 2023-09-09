@@ -10,3 +10,8 @@
     font-weight: var(--fw-bold);
     font-size: var(--fs-700);
 }
+
+.disabilities {
+    font-size: var(--size-xs);
+    margin-top: 5rem;
+}

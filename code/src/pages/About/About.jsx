@@ -3,14 +3,6 @@ import StaffCard from "../../components/StaffCard/StaffCard";
 
 import "./About.css";
 
-{
-  /* <div className="staff">Tommy Beckelheimer</div>-
-<div className="staff">Ravioli</div>-
-<div className="staff">Evan</div>-
-<div className="staff">Jacob</div>-
-<div className="staff">Bobby</div>-
-<div className="staff">Albert</div>- */
-}
 const About = () => {
   return (
     <div>
@@ -20,7 +12,7 @@ const About = () => {
         <div>Looking to join the team? Well, don't.</div>
       </div>
 
-      <p className="disabilities">
+      <p className="disabilities container">
         Bocca Bocca is committed to making our website's content accessible and
         user friendly to all of our customers, including our customers with
         disabilities. If you are having difficulty viewing or navigating the
