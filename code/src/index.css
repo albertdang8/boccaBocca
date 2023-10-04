@@ -11,8 +11,8 @@
 
     --clr-background-dk: #0E101A;
     --clr-primary-dk: #0D8065;
-    --clr-secondary-dk:#100d3d;
-    --clr-accent-dk: rgb(28, 245, 194);
+    --clr-secondary-dk: #100d3d;
+    --clr-accent-dk: #1cf5c2;
     --clr-text-dk: #e9e8fa;
 
     --ff-para: 'Rubik', sans-serif;
@@ -28,9 +28,7 @@
     --fs-400: 1.125rem;
     --fs-500: 1.375rem;
     --fs-600: 1.75rem;
-    --fs-700: 3.25rem
-
-    --size-xxs: 0.5rem;
+    --fs-700: 3.25rem --size-xxs: 0.5rem;
     --size-xs: 0.75rem;
     --size-s: 0.875rem;
     --size-base: 1rem;
@@ -91,3 +89,18 @@ button {
     cursor: pointer;
     color: inherit;
 }
+
+/* tailwind.config.js */
+/* colors: {
+    'text': '#1a1a1a',
+    'background': '#faf5f5',
+    'primary': '#742706',
+    'secondary': '#364409',
+    'accent': '#e78383',
+   }, */
+
+/* --text: #1a1a1a;
+--background: #faf5f5;
+--primary: #742706;
+--secondary: #364409;
+--accent: #e78383; */
